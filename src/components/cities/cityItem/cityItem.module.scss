@@ -1,0 +1,69 @@
+@import "../../../theme.scss";
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    border-radius: 16px;
+    padding: 20px 0px;
+    box-shadow: -5px 0px 5px var(--shadow-light), 7px 0px 7px var(--shadow-dark),
+        0px -5px 5px var(--shadow-light), 0px 7px 7px var(--shadow-dark);
+    transition: transform 0.2s ease;
+    width: 100%;
+    max-width: 100%;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &_inside {
+        p {
+            margin: 8px 0;
+            font-size: 0.9rem;
+            color: var(--city_item-text-color);
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--text-color);
+        }
+
+        .admin_btns {
+            z-index: 3;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+
+            .btn {
+                padding: 10px;
+                width: 45%; // Уменьшаем ширину кнопок для лучшей адаптивности
+                display: flex;
+                justify-content: center;
+                background: var(--create_bg-btn);
+                box-shadow: -5px 0px 5px var(--shadow-light),
+                    7px 0px 7px var(--shadow-dark),
+                    0px -5px 5px var(--shadow-light),
+                    0px 7px 7px var(--shadow-dark);
+                border-radius: 10px;
+                color: white;
+                font-size: 14px;
+                border: none;
+                transition: 0.3s;
+
+                &:hover {
+                    box-shadow: -2px 0px 2px var(--shadow-light),
+                        3px 0px 3px var(--shadow-dark),
+                        0px -2px 2px var(--shadow-light),
+                        0px 3px 3px var(--shadow-dark);
+                }
+            }
+        }
+    }
+
+    @media (max-width: 700px) {
+        padding: 25px 0px;
+    }
+}

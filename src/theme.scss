@@ -1,0 +1,43 @@
+.day {
+    --background-color: #f4f4f9;
+    --text-color: #6f6fb0;
+    --shadow-light: rgba(255, 255, 255, 0.7);
+    --shadow-dark: rgba(0, 0, 0, 0.2);
+    --bgg: linear-gradient(rgb(240, 240, 243) 0%, rgb(240, 240, 243) 100%);
+    --invert: invert(0%);
+    --primary-color: #6660ff;
+
+    --nav-background-color: #f5f5f5;
+    --navBar__slider_bgc: #ffffff;
+    --navBar__slider-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    --nav-shadow-light: inset 0 4px 6px rgba(0, 0, 0, 0.2),
+        inset 0 -4px 6px rgba(255, 255, 255, 0.8);
+
+    --city_item-text-color: rgba(0, 0, 0, 0.8);
+
+    --create-background-color: rgba(244, 243, 243, 0.413);
+    --create-text-color: #274c5b;
+    --create_bg-btn: rgb(115, 156, 156);
+}
+
+.night {
+    --background-color: #2c2c2c;
+    --text-color: #ffffff;
+    --shadow-light: rgba(255, 255, 255, 0.1);
+    --shadow-dark: rgba(0, 0, 0, 0.5);
+    --bgg: #3a3a3a;
+    --invert: invert(100%);
+    --primary-color: white;
+
+    --nav-background-color: #2a2a2a;
+    --navBar__slider_bgc: #3a3a3a;
+    --navBar__slider-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    --nav-shadow-light: inset 0 4px 6px rgba(0, 0, 0, 0.8),
+        inset 0 -4px 6px rgba(255, 255, 255, 0.2);
+
+    --city_item-text-color: rgba(255, 255, 255, 0.8);
+
+    --create-background-color: rgba(244, 243, 243, 0.1);
+    --create-text-color: #e1f6ff;
+    --create_bg-btn: rgb(75, 75, 75);
+}

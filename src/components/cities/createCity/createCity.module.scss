@@ -1,0 +1,126 @@
+@import "../../../theme.scss";
+@import url("https://fonts.googleapis.com/css2?family=FontName&display=swap");
+
+* {
+    font-family: "FontName", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.reg_center {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--create-background-color);
+}
+
+.registerDivValue {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--create-text-color);
+}
+
+.regBlockCentr {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.create_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .create_left {
+        width: 50%;
+    }
+    .create_right {
+        width: 50%;
+    }
+
+    .regBlock {
+        display: flex;
+        width: 50%;
+        height: 400px;
+        background-color: var(--nav-background-color);
+        box-shadow: -5px 0px 5px var(--shadow-light),
+            7px 0px 7px var(--shadow-dark), 0px -5px 5px var(--shadow-light),
+            0px 7px 7px var(--shadow-dark);
+        border-radius: 10px;
+        padding: 15px;
+        justify-content: space-around;
+        align-items: center;
+        .rightRegPart {
+            width: 80%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            .two_registerInp {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .registerInp {
+                width: 100%;
+                background-color: var(--navBar__slider_bgc);
+                box-shadow: -2px 0px 2px var(--shadow-light),
+                    3px 0px 3px var(--shadow-dark),
+                    0px -2px 2px var(--shadow-light),
+                    0px 3px 3px var(--shadow-dark);
+                width: 250px;
+                border: none;
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+
+            .registerBtn {
+                padding: 10px;
+                display: flex;
+                width: 40%;
+                border: none;
+                justify-content: center;
+                background: var(--create_bg-btn);
+                box-shadow: -5px 0px 5px var(--shadow-light),
+                    7px 0px 7px var(--shadow-dark),
+                    0px -5px 5px var(--shadow-light),
+                    0px 7px 7px var(--shadow-dark);
+                border-radius: 10px;
+                color: white;
+                font-size: 14px;
+                transition: 0.3s;
+                &:hover {
+                    box-shadow: -2px 0px 2px var(--shadow-light),
+                        3px 0px 3px var(--shadow-dark),
+                        0px -2px 2px var(--shadow-light),
+                        0px 3px 3px var(--shadow-dark);
+                }
+            }
+        }
+        @media (max-width: 710px) {
+            width: 80%;
+            height: 500px;
+            background-color: rgba($color: #000000, $alpha: 0);
+            box-shadow: none;
+
+            .rightRegPart {
+                display: flex;
+
+                .two_registerInp {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .registerInp {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

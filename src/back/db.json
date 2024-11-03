@@ -1,0 +1,121 @@
+{
+    "towns": [
+        {
+            "id": "1",
+            "name": "бишкек",
+            "temperature": "25C",
+            "day": "суббота",
+            "humidity": "60",
+            "pressure": "1010",
+            "wind": "северный"
+        },
+        {
+            "id": "2",
+            "name": "токмок",
+            "temperature": "22C",
+            "day": "пятница",
+            "humidity": "55",
+            "pressure": "1008",
+            "wind": "восточный"
+        },
+        {
+            "id": "3",
+            "name": "Балыкчы",
+            "temperature": "20C",
+            "day": "суббота",
+            "humidity": "65",
+            "pressure": "1012",
+            "wind": "западный"
+        },
+        {
+            "id": "4",
+            "name": "Баткен",
+            "temperature": "23C",
+            "day": "воскресенье",
+            "humidity": "70",
+            "pressure": "1005",
+            "wind": "южный"
+        },
+        {
+            "id": "5",
+            "name": "Джалал-Абад",
+            "temperature": "26C",
+            "day": "пятница",
+            "humidity": "68",
+            "pressure": "1011",
+            "wind": "северо-восточный"
+        },
+        {
+            "id": "6",
+            "name": "токмок",
+            "temperature": "22C",
+            "day": "четверг",
+            "humidity": "55",
+            "pressure": "1008",
+            "wind": "восточный"
+        },
+        {
+            "id": "7",
+            "name": "Кант",
+            "temperature": "24C",
+            "day": "вторник",
+            "humidity": "62",
+            "pressure": "1013",
+            "wind": "западный"
+        },
+        {
+            "id": "8",
+            "name": "Кара-Балта",
+            "temperature": "21C",
+            "day": "среда",
+            "humidity": "67",
+            "pressure": "1007",
+            "wind": "южный"
+        },
+        {
+            "id": "9",
+            "name": "Каракол",
+            "temperature": "19C",
+            "day": "воскресенье",
+            "humidity": "72",
+            "pressure": "1006",
+            "wind": "северный"
+        },
+        {
+            "id": "10",
+            "name": "Кемин",
+            "temperature": "20C",
+            "day": "суббота",
+            "humidity": "66",
+            "pressure": "1010",
+            "wind": "восточный"
+        },
+        {
+            "id": "11",
+            "name": "Нарын",
+            "temperature": "18C",
+            "day": "пятница",
+            "humidity": "73",
+            "pressure": "1004",
+            "wind": "западный"
+        },
+        {
+            "id": "12",
+            "name": "Ош",
+            "temperature": "27C",
+            "day": "суббота",
+            "humidity": "64",
+            "pressure": "1014",
+            "wind": "северный"
+        },
+        {
+            "id": "13",
+            "name": "Чолпон-Ата",
+            "temperature": "28C",
+            "day": "воскресенье",
+            "humidity": "61",
+            "pressure": "1003",
+            "wind": "южный"
+        }
+    ]
+}

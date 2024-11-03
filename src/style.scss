@@ -1,0 +1,23 @@
+@import "./theme.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 80%;
+}
+ul {
+    list-style-type: none;
+}
+
+body.day {
+    background-color: linear-gradient(
+        rgb(240, 240, 243) 0%,
+        rgb(240, 240, 243) 100%
+    );
+}
+
+body.night {
+    background-color: #3a3a3a;
+}

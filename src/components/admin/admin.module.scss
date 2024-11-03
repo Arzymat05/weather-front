@@ -1,0 +1,135 @@
+@import "../../theme.scss";
+@import url("https://fonts.googleapis.com/css2?family=FontName&display=swap");
+
+* {
+    font-family: "FontName", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.reg_center {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--create-background-color);
+}
+
+.registerDivValue {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--create-text-color);
+}
+
+.regBlockCentr {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.regBlock {
+    display: flex;
+    width: 50%;
+    height: 200px;
+    background-color: var(--nav-background-color);
+    box-shadow: -5px 0px 5px var(--shadow-light), 7px 0px 7px var(--shadow-dark),
+        0px -5px 5px var(--shadow-light), 0px 7px 7px var(--shadow-dark);
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+
+    .leftregPart {
+        height: 80%;
+
+        img {
+            height: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    .rightRegPart {
+        display: flex;
+        flex-direction: column;
+
+        .registerInp {
+            background-color: var(--navBar__slider_bgc);
+            box-shadow: -2px 0px 2px var(--shadow-light),
+                3px 0px 3px var(--shadow-dark), 0px -2px 2px var(--shadow-light),
+                0px 3px 3px var(--shadow-dark);
+            border: none;
+            width: 250px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .registerBtn {
+            padding: 10px;
+            display: flex;
+            width: 40%;
+            border: none;
+            justify-content: center;
+            background: var(--create_bg-btn);
+            box-shadow: -5px 0px 5px var(--shadow-light),
+                7px 0px 7px var(--shadow-dark), 0px -5px 5px var(--shadow-light),
+                0px 7px 7px var(--shadow-dark);
+            border-radius: 10px;
+            color: white;
+            font-size: 14px;
+            transition: 0.3s;
+            &:hover {
+                box-shadow: -2px 0px 2px var(--shadow-light),
+                    3px 0px 3px var(--shadow-dark),
+                    0px -2px 2px var(--shadow-light),
+                    0px 3px 3px var(--shadow-dark);
+            }
+        }
+    }
+    @media (max-width: 900px) {
+        .leftregPart {
+            display: none;
+        }
+    }
+    @media (max-width: 650px) {
+        width: 100%;
+        height: 500px;
+        box-shadow: none;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+/* error */
+.errorcenter {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+    .errorBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+
+        h3 {
+            color: #274c5b;
+            margin-bottom: 30px;
+        }
+    }
+}
+.error {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        font-size: 50px;
+        color: rgb(250, 50, 50);
+    }
+}

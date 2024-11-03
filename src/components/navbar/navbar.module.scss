@@ -1,0 +1,50 @@
+@import "../../theme.scss";
+
+$text-color: #6b6b6b;
+
+.navBar_center {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .navBar_center_2 {
+        width: 90%;
+        display: flex;
+
+        .navBar {
+            position: relative;
+            display: flex;
+            align-items: center;
+            background-color: var(--nav-background-color);
+            border-radius: 30px;
+            padding: 20px;
+            width: 300px;
+            justify-content: space-around;
+            box-shadow: var(--nav-shadow-light);
+
+            .navBar__slider {
+                position: absolute;
+                margin-left: 15px;
+                width: 90px;
+                height: 40px;
+                background-color: var(--navBar__slider_bgc);
+                border-radius: 25px;
+                transition: left 0.3s ease;
+                box-shadow: var(--navBar__slider-shadow);
+            }
+
+            .navBar__item {
+                position: relative;
+                z-index: 1;
+                color: var(--text-color);
+                font-weight: bold;
+                cursor: pointer;
+
+                &--active {
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+}
